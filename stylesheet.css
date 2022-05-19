@@ -1,0 +1,49 @@
+h1{
+    color:mediumblue ;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align:center;
+    border: 2px solid gold;
+    background: papayawhip;
+    color: black;
+    box-decoration-break: clone;
+    box-shadow: 1px 2px 2px ;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+}
+.left-div{
+    width: auto;
+    display: inline-block;
+}
+.right-div{
+    display: inline-block;
+}
+.table{
+    border-collapse: collapse;  
+    color: yellowgreen;  
+}
+th, td{
+    border: 1px solid blue;
+    padding: 7px 17px;
+} 
+ .table tr th{
+     background-color:aliceblue;
+     color: blue;
+     text-transform: uppercase;
+}
+.table tr td{
+    background-color: beige;
+    color:black  
+} 
+.table tr:hover td{
+    background-color: goldenrod;
+}
+.table td:hover{
+    background-color: gold !important;
+} 
